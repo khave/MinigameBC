@@ -1,0 +1,11 @@
+name: MagicBattle
+main: me.khave.minigame.MagicBattle
+version: 1.0.1
+author: khave
+description: A magical minigame!
+
+commands:
+    magicbattle:
+        usage: /<command> <args> [opt args]
+        aliases: [mb]
+        description: MagicBattle command!
