@@ -34,7 +34,7 @@ public class SignManager implements Listener {
                 BlockState st = loc.getBlock().getState();
                 if(st instanceof Sign) {
                     Sign s = (Sign) st;
-                    signs.put(s, section.getInt("arenaNumber"));
+                    signs.put(s, section.getInt("arenaNumber")); //Null Pointer Exception Errors TODO: Needs Fixing
                 }
             }
 
