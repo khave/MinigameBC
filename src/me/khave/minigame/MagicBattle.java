@@ -21,7 +21,7 @@ public class MagicBattle extends JavaPlugin {
         getCommand("magicbattle").setExecutor(new CommandManager());
 
         PluginManager pm = Bukkit.getServer().getPluginManager();
-        pm.registerEvents(new BlockBreak(), this);
+        pm.registerEvents(new BlockBreak(), this);                      //HI
         pm.registerEvents(new PlayerDeath(), this);
         pm.registerEvents(new PlayerInteract(), this);
         pm.registerEvents(new PlayerLeave(), this);
